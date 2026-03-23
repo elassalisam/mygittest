@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Deployment Test - Adrixis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="25" cy="25" r="24" stroke="url(#gradient)" stroke-width="2"/>
+                    <path d="M25 10L35 20L25 30L15 20L25 10Z" fill="url(#gradient)"/>
+                    <path d="M25 20L35 30L25 40L15 30L25 20Z" fill="url(#gradient)" opacity="0.6"/>
+                    <defs>
+                        <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+                <h1>Adrixis</h1>
+            </div>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#features">Features</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <main>
+            <section id="hero">
+                <h2>🎉 Git Deployment Test Successful!</h2>
+                <p class="subtitle">This website was deployed using DirectAdmin Git integration</p>
+
+                <div class="status-card">
+                    <div class="status-icon">✅</div>
+                    <h3>Deployment Status</h3>
+                    <p>If you can see this page, your Git deployment is working perfectly!</p>
+                    <div class="deployment-info">
+                        <span class="label">Version:</span>
+                        <span class="value">1.0.0</span>
+                    </div>
+                    <div class="deployment-info">
+                        <span class="label">Build Date:</span>
+                        <span class="value" id="buildDate"></span>
+                    </div>
+                </div>
+            </section>
+
+            <section id="features">
+                <h2>✨ Features Tested</h2>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">📁</div>
+                        <h3>File Transfer</h3>
+                        <p>HTML, CSS, and JavaScript files successfully transferred from Git repository to web server.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🎨</div>
+                        <h3>Static Assets</h3>
+                        <p>All static resources including stylesheets and images are properly linked and loaded.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🔄</div>
+                        <h3>Auto Deploy</h3>
+                        <p>Automatic deployment from Git repository to production environment is operational.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <h3>Fast Loading</h3>
+                        <p>Optimized for performance with minimal dependencies and clean code structure.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="technical">
+                <h2>🔧 Technical Details</h2>
+                <div class="tech-info">
+                    <div class="tech-card">
+                        <h4>Repository</h4>
+                        <p>GitHub repository successfully cloned to DirectAdmin server</p>
+                    </div>
+                    <div class="tech-card">
+                        <h4>Branch</h4>
+                        <p>Files deployed from the main branch</p>
+                    </div>
+                    <div class="tech-card">
+                        <h4>Deploy Path</h4>
+                        <p>Files deployed to public_html directory</p>
+                    </div>
+                    <div class="tech-card">
+                        <h4>Status</h4>
+                        <p class="status-live">🟢 Live and Running</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="next-steps">
+                <h2>🚀 Next Steps</h2>
+                <div class="steps-container">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>Update Your Repository</h3>
+                            <p>Make changes to your code and push to GitHub</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>Fetch Changes</h3>
+                            <p>Click the Fetch button in DirectAdmin to pull latest code</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3>Deploy</h3>
+                            <p>Click Deploy to update your live website</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Adrixis - Git Deployment Test</p>
+            <p class="footer-note">This is a test deployment page</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
